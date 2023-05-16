@@ -4,5 +4,5 @@ export const version = pkg.version;
 
 let _calls = 0;
 export function foo() {
-    return ++_calls;
+    return { calls: ++_calls };
 }
